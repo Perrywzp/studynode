@@ -13,7 +13,7 @@ function add(teacherName,students){
         function(item,index){
             student.add(item);
         }
-    )
+    );
 }
 
 exports.add = add;
