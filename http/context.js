@@ -30,7 +30,7 @@ function Pet(words){
 
     this.speak = function(){
         console.log(this.words);
-    }
+    };
 }
 
 var cat = new Pet('Miao');
